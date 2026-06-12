@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Booking Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#333;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.movie-card{
+    background:white;
+    border:1px solid #ddd;
+    text-align:center;
+    padding:15px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.movie-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.movie-card h3{
+    margin:10px 0;
+}
+
+.movie-card p{
+    color:#666;
+    margin-bottom:10px;
+}
+
+button{
+    background:skyblue;
+    color:black;
+    border:none;
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:dodgerblue;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Movie Booking Page</h1>
+
+<div class="container">
+
+    <div class="movie-card">
+        <img src="MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Doctor Strange Multiverse of Madness">
+        <h3>Doctor Strange-Multiverse of Madness</h3>
+        <p>Rating - 4.5</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="movie-card">
+        <img src="bhool-bhulaiyaa-2-trailer.avif" alt="Bhool Bhulaiyaa 2">
+        <h3>Bhool Bhulaiyaa 2</h3>
+        <p>Rating - 4.5</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="movie-card">
+        <img src="compose.webp" alt="Avengers Endgame">
+        <h3>Avengers Endgame</h3>
+        <p>Rating - 4.5</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="movie-card">
+        <img src="MV5BNjdhZjhhMmUtNDFmNi00NDQwLWJmMGYtNmNhNzAyODMzNDE4XkEyXkFqcGc@._V1_.jpg" alt="Chhaava">
+        <h3>Chhaava</h3>
+        <p>Rating - 4.5</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="movie-card">
+        <img src="hq720.jpg" alt="KGF 2">
+        <h3>KGF 2</h3>
+        <p>Rating - 4.5</p>
+        <button>Book Now</button>
+    </div>
+
+    <div class="movie-card">
+        <img src="unnamed.jpg" alt="Shershaah">
+        <h3>Shershaah</h3>
+        <p>Rating - 4.5</p>
+        <button>Book Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
